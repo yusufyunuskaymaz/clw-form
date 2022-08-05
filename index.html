@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+
+    <h1>Clarusway Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+
+    <form action="">
+        <label for="name">Name</label><br><br>
+        <input type="text" placeholder="Enter your name" name="" id="name" required><br>
+        <label for="surname">Surname</label><br><br>
+        <input type="text" placeholder="Enter your surname" name="" id="surname"><br>
+        <label for="email">Email</label><br><br>
+        <input type="email" placeholder="user@clarusway.com" name="" id="email"><br>
+        <label for="currentRole">Which option best describes your current role?</label><br><br>
+        <select name="role" id="currentRole">
+            <option value="empty">Select current role</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="ftj">Full Time Job</option>
+            <option value="ptj">Part Time Job</option>
+            <option value="ftl">Full Time Learner</option>
+            <option value="pnts">Prefer Not To Say</option>
+        </select><br><br>
+        <label for="recommend">Would you recommend Clarusway to a friend?</label><br><br>
+        <input type="radio" name="recommend" id="yes">
+        <label for="yes">Definetely, Yes</label><br>
+        <input type="radio" name="recommend"  id="maybe">
+        <label for="maybe">Maybe</label><br>
+        <input type="radio" name="recommend"  id="notsure">
+        <label for="notsure">Not sure</label><br>
+        <input type="radio" name="recommend"  id="defNo">
+        <label for="defNo">Definitelyi, No</label><br><br>
+
+        <label for="fav">What is your favorite feature of Clarusway?</label><br><br>
+        <select name="favourite" id="fav">
+            <option value="empty">Select an option</option>
+            <option value="courses">Courses</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="mentors">Mentors</option>
+        </select><br><br>
+        <label for="improved">What would you like to see improved? (Check all that apply)</label><br><br>
+        <input type="checkbox" name="seeImp" id="frend">
+        <label for="frend">Front-end Projects</label><br>
+        <input type="checkbox" name="seeImp" id="backend">
+        <label for="backend">Back-end Projects</label><br>
+        <input type="checkbox" name="seeImp" id="data">
+        <label for="data">Data Science</label><br>
+        <input type="checkbox" name="seeImp" id="additional">
+        <label for="additional">Additional Courses
+        </label><br><br>
+        <label for="comment">Any comments or suggestions?</label><br><br>
+        <textarea name="comments" placeholder="Enter your comment here... Thanxs for your comments..." id="comment" cols="20" rows="5"></textarea> <input style="border: none;" type="submit" name="sbmt" id="" value="Submit">
+
+
+
+    </form>
+
+
+    
+</body>
+</html>
